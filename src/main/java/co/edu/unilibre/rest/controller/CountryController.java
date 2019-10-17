@@ -13,7 +13,7 @@ import co.edu.unilibre.rest.service.IContryService;
 @RestController
 public class CountryController {
 	
-	@RequestMapping(value = "/contries", method =  RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE )
+	@RequestMapping(value = "/list-contry", method =  RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE )
 	
 	public List<IContryService> allContry(){
 		List<IContryService> country = new ArrayList<>();
